@@ -262,6 +262,7 @@ h6 {
 }
 
 /* 4. Helper Classes  */
+
 .pm-containerPadding20 {
 	padding:20px 20px;	
 }
@@ -282,7 +283,7 @@ h6 {
 	padding:80px 20px;	
 }
 
-.pm-containerPadding100 {
+.pm-containerPadding100 {`
 	padding:100px 20px;	
 }
 
@@ -396,7 +397,8 @@ h6 {
 }
 
 .pm-column-spacing {
-	padding-bottom:30px;
+	padding-bottom:15px;
+	padding-top:15px;
 }	
 
 .pm-center {
@@ -2027,6 +2029,10 @@ header.fixed .pm-header-logo {
 .pm-image-container img {
 	width:100%;	
 }
+/* Custom */
+.pm-featured-header-container-custom{
+	border-top:4px solid #231f20;
+}
 
 /* 27. Featured header panel */
 .pm-featured-header-container {
@@ -2208,6 +2214,14 @@ header.fixed .pm-header-logo {
 
 .pm-menu-item-desc {
 	padding:15px;	
+}
+
+.pm-menu-item-title-custom {
+    color: #231f20 !important;
+    font-family: 'Open Sans';
+    font-size: 20px !important;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .pm-menu-item-title {
