@@ -62,6 +62,10 @@
     <!-- Flickr feed -->
     <link rel="stylesheet" type="text/css" href="css/flickrfeed.css" />
     <!-- Flickr feed -->
+    
+    <!-- Comments -->
+    <link rel="stylesheet" type="text/css" href="css/comments.css" />
+    <!-- Comments -->
         
     <!-- Development Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Cantata+One%7COpen+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
@@ -80,7 +84,7 @@
         <a href="index.html"><img src="img/vienna-logo.png" alt="Vienna Restaurant" width="180px" height="60px"></a> 
     </div>
     
-    <ul class="sf-menu pm-nav">
+	<ul class="sf-menu pm-nav">
                         
         <li><a href="index.html">Home</a></li>
          <li>
@@ -116,8 +120,8 @@
             	<div class="row">
                 	
                     <div class="col-lg-10 col-md-10 col-sm-10">
-                    	<form action="" method="post">
-                        	<input name="" type="text" class="pm-search-field-header" placeholder="Type Keywords...">
+                    	<form action="#" method="post">
+                        	<input name="pm_search_field" type="text" class="pm-search-field-header" placeholder="Type Keywords...">
                         </form>
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-2">
@@ -134,7 +138,7 @@
         <!-- Search overlay end -->
     
     	<!-- Sub-Menu -->
-		<div class="pm-sub-menu-container">
+    	<div class="pm-sub-menu-container">
         
         	<div class="container">
             
@@ -145,7 +149,7 @@
                         <div class="pm-sub-menu-info">
                         	<p class="pm-address"><i class="fa fa-map-marker"></i>&nbsp; Lot 1, Ground Floor, Tower 3 @ PFCC, Bandar Puteri Puchong</p>
                         </div>
-
+                                                
                     </div>
                     
                     <!-- <div class="col-lg-2 col-md-2 col-sm-6 visible-lg visible-md pm-book-event">
@@ -178,7 +182,7 @@
                 	
                     <div class="col-lg-4 col-md-4 col-sm-12">
                     	
-                       <div class="pm-header-logo-container">
+                        <div class="pm-header-logo-container">
                     		<a href="index.html"><img src="img/vienna-logo.png" class="img-responsive pm-header-logo" alt="Vienna Restaurant" height="150px" width="180px"></a> 
                         </div>
                         
@@ -228,11 +232,11 @@
         </header>
         <!-- /Main navigation -->
                 
-        <!-- SUB-HEADER area -->
-        <div class="pm-sub-header-container pm-parallax-panel" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
+        <!-- SUB-HEADER area here-->
+        <div class="pm-sub-header-container1 pm-parallax-panel" data-stellar-background-ratio="0.5" data-stellar-vertical-offset="0">
         	
             <div class="pm-sub-header-title-container">
-            	<p class="pm-sub-header-title"><span>Events</span></p>
+            	<p class="pm-sub-header-title post">Live Music Performance</p>
             </div>
             
         </div>
@@ -240,118 +244,21 @@
         <!-- SUB-HEADER area end -->
         
         <!-- BODY CONTENT starts here -->
-                
-        <!-- Gallery filter system -->
-        <div class="container pm-containerPadding-top-80">
+        
+        <div class="container pm-containerPadding80">
         	<div class="row">
             
-                <div class="col-lg-12 pm-containerPadding-bottom-40">
-                	
-                    <div class="pm-featured-header-container">
-                    
-                    	<!-- Featured panel header -->
-                        <div class="pm-featured-header-title-container news">
-                        	<p class="pm-featured-header-title">Come join in on the fun</p>
-                            <p class="pm-featured-header-message">See what events are happening across the city</p>
-                        </div>
-                        <!-- Featured panel header end -->
-                        
-                        <!-- Filter menu -->
-                        <div class="pm-isotope-filter-container">
-                        	<ul class="pm-isotope-filter-system">
-                            	<li class="pm-isotope-filter-system-expand">Expand <i class="fa fa-angle-down"></i></li>
-                            	<li><a href="#" class="current">Past Events</a></li>
-                                <li><a href="events.html">Browse Events</a></li>
-                            </ul>
-                        </div>
-                        <!-- Filter menu end -->
-                    
-                    </div>
-                    
-                </div><!-- /.col-lg-12 -->
-                
-                
-                
-                <!-- event item -->
-                <div class="col-lg-4 col-md-4 col-sm-6 pm-column-spacing">
-                
-                    <div class="pm-event-item-container">
-                    	<div class="pm-event-item-img-container" style="background-image:url(img/events/item1.jpg);">
-                        	<div class="pm-event-item-date">
-                            	<p class="pm-event-item-month">JUL</p>
-                                <p class="pm-event-item-day">28</p>
-                            </div>
-                        </div>
-                        
-                        <div class="pm-event-item-desc">
-                        	<p class="pm-event-item-title">Live jazz band</p>
-                            <div class="pm-event-item-divider"></div>
-                            <p class="pm-event-item-excerpt">Nam pharetra diam eu dolor vestibulum volutpat. Aliquam non turpis non leo euismod sollicitudin. Pellentesque eget <a href="#">{...}</a> </p>
-                            <div class="pm-event-item-divider"></div>
-                            <ul class="pm-event-item-btns">
-                            	<li><a href="single-event-post.html" class="pm-rounded-btn small pm-primary">more info</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                </div><!-- /.col-lg-4 -->
-                <!-- /event item -->
-                
-                <!-- event item -->
-                <div class="col-lg-4 col-md-4 col-sm-6 pm-column-spacing">
-                
-                    <div class="pm-event-item-container">
-                    	<div class="pm-event-item-img-container" style="background-image:url(img/events/item2.jpg);">
-                        	<div class="pm-event-item-date">
-                            	<p class="pm-event-item-month">AUG</p>
-                                <p class="pm-event-item-day">13</p>
-                            </div>
-                        </div>
-                        
-                        <div class="pm-event-item-desc">
-                        	<p class="pm-event-item-title">Wine tasting</p>
-                            <div class="pm-event-item-divider"></div>
-                            <p class="pm-event-item-excerpt">Nam pharetra diam eu dolor vestibulum volutpat. Aliquam non turpis non leo euismod sollicitudin. Pellentesque eget <a href="#">{...}</a> </p>
-                            <div class="pm-event-item-divider"></div>
-                            <ul class="pm-event-item-btns">
-                            	<li><a href="single-event-post-with-sidebar.html" class="pm-rounded-btn small pm-primary">more info</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                </div><!-- /.col-lg-4 -->
-                <!-- /event item -->
-                
-                <!-- event item -->
-                <div class="col-lg-4 col-md-4 col-sm-6 pm-column-spacing">
-                
-                    <div class="pm-event-item-container">
-                    	<div class="pm-event-item-img-container" style="background-image:url(img/events/item3.jpg);">
-                        	<div class="pm-event-item-date">
-                            	<p class="pm-event-item-month">SEP</p>
-                                <p class="pm-event-item-day">15</p>
-                            </div>
-                        </div>
-                        
-                        <div class="pm-event-item-desc">
-                        	<p class="pm-event-item-title">heart &amp; stroke fundraiser</p>
-                            <div class="pm-event-item-divider"></div>
-                            <p class="pm-event-item-excerpt">Nam pharetra diam eu dolor vestibulum volutpat. Aliquam non turpis non leo euismod sollicitudin. Pellentesque eget <a href="#">{...}</a> </p>
-                            <div class="pm-event-item-divider"></div>
-                            <ul class="pm-event-item-btns">
-                            	<li><a href="single-event-post.html" class="pm-rounded-btn small pm-primary">more info</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                </div><!-- /.col-lg-4 -->
-                <!-- /event item -->
+            	<!-- Blog post area -->
+                <div class="col-lg-12">
+				
+                    <p><img src="artist/maymow.jpg" class="img-responsive"/></p>
 
-                
+                </div>
+                <!-- Blog post area end -->
+				
             </div>
         </div>
-        <!-- Gallery filter system end -->
-
+        
         <!-- BODY CONTENT end -->
         
         <div class="pm-fat-footer">
@@ -439,7 +346,7 @@
                             <li><a href="gallery.html">Gallery</a></li>
                             <li><a href="events.html">Browse Events</a></li>
                             <li><a href="promotions.html">Promotions</a></li>
-                            <li><a href="catering.html">Contact Us</a></li>
+                            <li><a href="contact-us.html">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -468,8 +375,8 @@
     <script src="js/stellar/jquery.stellar.js"></script>
     <script src="js/countdown/countdown.js"></script>
     <script src="js/theme-color-selector/theme-color-selector.js"></script>
-	<script src="js/wow/wow.min.js"></script>
     <script src="js/pulse/jquery.PMSlider.js"></script>
+    <script src="js/jquery.testimonials.js"></script>
         
     <p id="back-top" class="visible-lg visible-md visible-sm"> </p>
     
