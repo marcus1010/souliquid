@@ -99,7 +99,7 @@ body {
 }
 
 a {
-	color:#EF5438;
+	color:#231f20;
 	font-family:'Open sans';
 	font-weight:500;
 	text-decoration:none !important;
@@ -115,7 +115,7 @@ a:hover {
 }
 
 p { 
-	color:#5f5f5f;
+	color:#1d1d1d;
     font-family: 'Open Sans';
     font-size: 13px;
     font-weight: 500;
@@ -255,7 +255,7 @@ h6 {
 	font-size:14px;
 	font-family:'Open Sans';
 	font-weight:100;
-	color:#ef5438;
+	color:#231f20;
 	line-height:28px;
 	text-transform:uppercase;
 	font-weight:700;
@@ -521,7 +521,7 @@ h6 {
     z-index: 999;
 	margin:0 0px 10px 10px;
 	padding:20px 30px;
-	background-color:#EF5438;
+	background-color:#e6ca83;
 	border-radius:4px 0 0 4px;
 	
 	transition:all 0.3s ease 0s;
@@ -859,7 +859,7 @@ header.fixed .pm-header-logo {
 	padding:0px 0 15px 0;
 	line-height:30px;
 	margin:0px 0px 25px 0px;
-	border-bottom:3px solid #EF5438;
+	border-bottom:3px solid #e6ca83;
 }
 .pm-fat-footer h6 i {
 	display:block;
@@ -885,7 +885,7 @@ header.fixed .pm-header-logo {
 
 /* 15. Footer  */
 .pm-footer-social-info-container, .pm-footer-subscribe-container {
-	border-top:3px solid #EF5438;
+	border-top:3px solid #e6ca83;
 	padding:30px 0;
 }
 
@@ -961,7 +961,7 @@ header.fixed .pm-header-logo {
 }
 
 .pm-footer-copyright a {
-	color:#EF5438;	
+	color:#e6ca83;	
 }
 
 .pm-footer-social-icons li:before {
@@ -992,7 +992,7 @@ header.fixed .pm-header-logo {
 	display:block;
 	text-align:center;
 	padding:14px;
-	background-color:#EF5438;
+	background-color:#231f20;
 	color:white;
 	font-size:18px;
 	width:45px;
@@ -1095,7 +1095,7 @@ header.fixed .pm-header-logo {
 	content:"\f069";
 	font-family:'FontAwesome';
 	font-size:6px;
-	color:#f1482b;	
+	color:#e6ca83;	
 	margin:-4px 8px 0 8px;
 	position:relative;
 	top:-3px;
@@ -1130,7 +1130,7 @@ header.fixed .pm-header-logo {
 }
 
 .sf-menu a:hover {
-	color:#f1482b;	
+	color:#e6ca83;	
 }
 
 .sf-sub-indicator {
@@ -1146,7 +1146,7 @@ header.fixed .pm-header-logo {
 	box-shadow:none !important;
 	background-color:rgba(0,0,0,.85);
 	padding:0 20px;
-	border-top:3px solid #f1482b;
+	border-top:3px solid #e6ca83;
 }
 
 .sf-menu ul li {
@@ -1893,6 +1893,15 @@ header.fixed .pm-header-logo {
 	position:relative;
 }
 
+/* Custom Header */
+.pm-sub-header-container-maymow {
+	height:340px;
+	width:100%;
+	background-image:url(../img/slider/slide1maymow.jpg);
+	background-repeat:no-repeat;
+	position:relative;
+}
+
 /* 25. Sub-header */
 .pm-sub-header-container {
 	height:340px;
@@ -2022,7 +2031,7 @@ header.fixed .pm-header-logo {
 .pm-image-container {
 	width:auto;
 	height:auto;
-	border-bottom:4px solid #EF5438;	
+	border-bottom:4px solid #e6ca83;	
 	margin-bottom:20px;
 }
 
@@ -2036,7 +2045,7 @@ header.fixed .pm-header-logo {
 
 /* 27. Featured header panel */
 .pm-featured-header-container {
-	border-top:4px solid #EF5438;
+	border-top:4px solid #e6ca83;
 }
 
 .pm-featured-header-title-container1 {
@@ -2079,7 +2088,7 @@ header.fixed .pm-header-logo {
 
 .pm-featured-header-message {
 	font-size:18px;
-	color:#ffc3a3;
+	color:#e6ca83;
 	font-family:'Cantata One';
 	margin:0 auto;
 	display:table;
@@ -2187,7 +2196,7 @@ header.fixed .pm-header-logo {
 	position:relative;
 	width:100%;
 	min-height:132px;
-	border-bottom:4px solid #EF5438;
+	border-bottom:4px solid #e6ca83;
 	background-size:cover;
 	background-repeat:no-repeat;
 }
@@ -2225,7 +2234,7 @@ header.fixed .pm-header-logo {
 }
 
 .pm-menu-item-title {
-    color: #ab8c6a !important;
+    color: #231f20 !important;
     font-family: 'Open Sans';
     font-size: 14px !important;
     font-weight: 700;
@@ -2245,7 +2254,7 @@ header.fixed .pm-header-logo {
 	position:relative;
 	width:100%;
 	min-height:160px;
-	border-bottom:4px solid #EF5438;
+	border-bottom:4px solid #e6ca83;
 	background-size:cover;
 	background-repeat:no-repeat;
 }
@@ -2253,7 +2262,7 @@ header.fixed .pm-header-logo {
 .pm-event-item-date {
 	min-width:85px;
 	height:auto;
-	background-color:#EF5438;
+	background-color:#e6ca83;
 	position:absolute;
 	top:0;
 	right:0;
@@ -2264,7 +2273,7 @@ header.fixed .pm-header-logo {
 
 .pm-event-item-month {
 	font-family:'Open sans';
-	color:white;
+	color:black;
 	text-transform:uppercase;
 	font-weight:300;
 	font-size:28px;
@@ -2272,7 +2281,7 @@ header.fixed .pm-header-logo {
 
 .pm-event-item-day {
 	font-family:'Open sans';
-	color:white;
+	color:black;
 	text-transform:uppercase;
 	font-weight:300;
 	font-size:25px;
@@ -2329,7 +2338,7 @@ header.fixed .pm-header-logo {
 	position:relative;
 	width:100%;
 	min-height:260px;
-	border-bottom:4px solid #EF5438;
+	border-bottom:4px solid #e6ca83;
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position:center center;
@@ -2348,7 +2357,7 @@ header.fixed .pm-header-logo {
 .pm-news-post-image {
 	width:auto;
 	min-height:240px;
-	border-bottom:4px solid #EF5438;
+	border-bottom:4px solid #e6ca83;
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:top left;
@@ -2361,7 +2370,7 @@ header.fixed .pm-header-logo {
 	position:absolute;
 	bottom:-45px;
 	right:0;	
-	background-color:#EF5438;
+	background-color:#e6ca83;
 	padding:8px 15px;
 }
 
@@ -2383,7 +2392,7 @@ header.fixed .pm-header-logo {
 .pm-news-post-title p {
 	font-family:'Cantata One';
 	font-size:18px;
-	color:white;
+	color:#231f20;
 	margin-bottom:0px;
 }
 
@@ -2688,7 +2697,7 @@ header.fixed .pm-header-logo {
 	position:relative;
 	width:100%;
 	min-height:180px;
-	border-bottom:4px solid #EF5438;
+	border-bottom:4px solid #e6ca83;
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-position:center;
