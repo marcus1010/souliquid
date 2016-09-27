@@ -1902,6 +1902,15 @@ header.fixed .pm-header-logo {
 	position:relative;
 }
 
+/* Custom header image */
+.pm-sub-header-container-custom1 {
+	height:340px;
+	width:100%;
+	background-image:url(../img/slider/slide1c.jpg);
+	background-repeat:no-repeat;
+	position:relative;
+}
+
 /* 25. Sub-header */
 .pm-sub-header-container {
 	height:340px;
