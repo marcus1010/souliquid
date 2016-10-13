@@ -477,7 +477,8 @@ h6 {
 
 /* 5. Bootstrap 3 overrides  */
 .navbar-collapse {
-	padding:0px !important;	
+	/**padding:0px !important;**/ 	
+	padding:40px !important;	
 }
 
 .navbar-collapse.in {
@@ -621,6 +622,7 @@ h6 {
 	color:white;
 	margin:8px 8px 0 0;
 	float:left;
+
 }
 
 .pm-sub-menu-info p i {
@@ -758,9 +760,16 @@ header.fixed {
 	-o-transition:all 0.3s;
 }
 
+/**New**/
+.pm-header-logo-container img{
+	width:920px;
+	
+}
+
 header.fixed .pm-header-logo {
-	max-width:35%;	
-	margin-top:9px;
+	/**max-width:35%;**/
+	margin-top:10px;
+	margin-bottom:10px;
 }
 
 .pm-boxed-mode header.fixed {
